@@ -34,13 +34,15 @@ gem 'slim-rails'
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platform: :mri
+
+  gem 'terminal-notifier-guard'
+  gem 'guard'
+  gem 'guard-rubocop'
+  gem 'guard-rspec'
 end
 
 group :development do
   gem 'rubocop'
-  gem 'terminal-notifier-guard'
-  gem 'guard'
-  gem 'guard-rubocop'
 
   # Access an IRB console on exception pages or by using <%= console %> anywhere in the code.
   gem 'web-console'
