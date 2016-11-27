@@ -1,5 +1,7 @@
 # flow
 
+[![wercker status](https://app.wercker.com/status/8ae389e165ff4e826f57345804365ca0/s/master "wercker status")](https://app.wercker.com/project/byKey/8ae389e165ff4e826f57345804365ca0)
+
 ## Description
 
 This Ruby on Rails application is developed with the aim of flow software engineers to flow using Pomodoro technique.
