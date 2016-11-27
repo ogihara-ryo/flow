@@ -3,6 +3,7 @@ AllCops:
     - bin/**/*
     - db/migrate/*.rb
     - db/schema.rb
+    - Guardfile
 
 Rails:
   Enabled: true
